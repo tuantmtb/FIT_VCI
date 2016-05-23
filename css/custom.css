@@ -1,0 +1,87 @@
+#header .header-body {
+     border-top: 0 !important;
+     border-bottom: 0!important;
+     padding:0 !important;
+    min-height:60px;
+}
+
+
+html.sticky-header-active #header .header-body {
+    position: relative !important;
+}
+
+/* Add here all your CSS customizations */
+.page-header {
+    background-color: #00a56c;
+    border-top: 0;
+    margin: 0 0 10px 0;
+}
+
+#footer.light {
+    padding-top: 20px;
+}
+
+#header .header-logo img {
+    margin: 0 !important;
+}
+
+#header .header-nav-main nav > ul > li > a {
+    text-transform: initial;
+}
+
+#header .header-nav.header-nav-stripe nav > ul > li > a {
+    color: #777;
+}
+
+/*INDEX*/
+.calendar {
+    margin: 10px;
+}
+
+.call-to-action-content {
+    text-align: left !important;
+}
+
+.title-index {
+    font-size: 2.2em !important;;
+    font-weight: 300 !important;;
+    line-height: 42px !important;;
+    margin: 13px 0 2px 0 !important;
+}
+
+.description-index {
+    font-size: 1.4em;
+    font-weight: 300;
+    letter-spacing: normal;
+    line-height: 27px;
+    margin: 0 0 14px 0;
+}
+
+/*--------CALENDAR-------*/
+article{
+    display: block;
+}
+article.post .post-date {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+}
+
+article.post .post-date .day {
+    color: #007f49;
+    background: #F4F4F4;
+    border-radius: 2px 2px 0 0;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+article.post .post-date .month {
+    border-radius: 0 0 2px 2px;
+    box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.07) inset;
+    color: #FFF;
+    font-size: 0.9em;
+    padding: 0 10px 2px;
+}
